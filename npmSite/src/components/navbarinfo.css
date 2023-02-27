@@ -1,0 +1,137 @@
+#info__home:hover::after {
+	content: "Home";
+	position: absolute;
+	top: 100px;
+	left: 80px;
+
+	text-align: center;
+	font-size: 1rem;
+	letter-spacing: 1px;
+
+	color: white;
+	font-weight: 500;
+
+	width: 70px;
+	height: 40px;
+	padding: 0.3rem;
+	padding-left: 1rem;
+
+	background-color: rgb(23, 144, 242);
+	clip-path: polygon(30% 0, 100% 0%, 100% 100%, 33% 100%, 0% 50%);
+}
+
+#info__gallery:hover::after {
+	content: "Gallery";
+	position: absolute;
+	top: 180px;
+	font-weight: 500;
+	color: white;
+	letter-spacing: 1px;
+	border-top-left-radius: 1000%;
+	border-bottom-left-radius: 1000%;
+	text-align: center;
+	font-size: 1rem;
+	left: 80px;
+	width: 80px;
+	height: 40px;
+	background-color: rgb(23, 144, 242);
+	padding-top: 0.3rem;
+	padding-left: 1rem;
+	clip-path: polygon(30% 0, 100% 0%, 100% 100%, 33% 100%, 0% 50%);
+}
+
+#info__info:hover::after {
+	content: "My info";
+	position: absolute;
+	top: 280px;
+	left: 80px;
+	font-weight: 500;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 1rem;
+	padding-top: 0.4rem;
+	padding-left: 1rem;
+	width: 90px;
+	height: 40px;
+	background-color: rgb(23, 144, 242);
+	clip-path: polygon(30% 0, 100% 0%, 100% 100%, 33% 100%, 0% 50%);
+}
+
+#info_whatsup:hover::after {
+	content: "Whatsup Me";
+	position: absolute;
+	top: 500px;
+	left: 80px;
+	font-weight: 500;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 1rem;
+	padding-top: 0.4rem;
+	padding-left: 1rem;
+	width: 100px;
+	height: 60px;
+	background-color: rgb(23, 144, 242);
+	clip-path: polygon(30% 0, 100% 0%, 100% 100%, 33% 100%, 0% 50%);
+}
+
+#info__call-me:hover::after {
+	content: "Call me";
+	position: absolute;
+	top: 630px;
+	left: 80px;
+	font-weight: 500;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 1rem;
+	padding-top: 0.4rem;
+	padding-left: 1rem;
+	width: 100px;
+	height: 40px;
+	background-color: rgb(23, 144, 242);
+	clip-path: polygon(30% 0, 100% 0%, 100% 100%, 33% 100%, 0% 50%);
+}
+
+.icon_ani {
+	transition: transform 0.3s ease-in-out;
+}
+
+.icon_ani:hover {
+	position: relative;
+	transform: translateY(-8px);
+}
+
+.eyes-follow {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 4vh;
+}
+
+.eyes {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.eye {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	background: #1c1a1a;
+}
+
+.pupil {
+	background: #e6e8e8;
+	border-radius: 50%;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	left: 25px;
+	top: 12px;
+}
